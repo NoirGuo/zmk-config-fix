@@ -1,0 +1,12 @@
+file_format: "1"
+id: hpd
+name: hpd
+type: shield
+url: https://github.com/a741725193/zmk-config-offsetkey
+features:
+  - keys
+  - pointer
+  - underglow
+siblings:
+  - hpd_left
+  - hpd_right
