@@ -30,10 +30,6 @@
     kscan0: kscan_composite {
         compatible = "zmk,kscan-composite";
   		wakeup-source;
-        rows = <6>;
-        columns = <6>;
-
-        // Include the matrix driver
         matrix {
             kscan = <&kscan1>;
         };
