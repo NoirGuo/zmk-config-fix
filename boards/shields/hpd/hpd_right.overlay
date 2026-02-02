@@ -1,7 +1,7 @@
 #include <dt-bindings/zmk/input_transform.h>
 #include <input/processors.dtsi>
 #include <dt-bindings/led/led.h>
-#include "offsetkey.dtsi"
+#include "hpd.dtsi"
 #include "trackball.dtsi"
 #define SYMBOLS 2
 #include "rgb.dtsi"
