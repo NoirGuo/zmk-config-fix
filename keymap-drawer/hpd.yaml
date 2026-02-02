@@ -53,17 +53,17 @@ layers:
   - {t: '=', h: LGUI, s: +}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: '1'}
-  - {t: '`', h: '2', s: '~'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '&mkp MB1'
+  - '&mkp MB2'
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: '2'}
   - {t: ., h: '1'}
   - $$mdi:keyboard-space$$
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - $$mdi:volume-off$$
+  - '&mkp MB3'
   '1':
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '`', s: '~'}
   - F1
   - F2
   - F3
@@ -123,7 +123,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:volume-off$$
   '2':
   - $$mdi:progress-download$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -177,10 +177,10 @@ layers:
   - RGB OFF
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
