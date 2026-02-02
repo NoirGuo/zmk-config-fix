@@ -3,6 +3,8 @@ id: hpd
 name: hpd
 type: shield
 url: https://github.com/a741725193/zmk-config-offsetkey
+requires:
+  - nice_nano_v2
 features:
   - keys
   - pointer
